@@ -1,0 +1,39 @@
+{
+    "results": [
+        {
+            "user": {
+                "gender": "male",
+                "name": {
+                    "title": "mr",
+                    "first": "simon",
+                    "last": "gauthier"
+                },
+                "location": {
+                    "street": "8969 9th st",
+                    "city": "killarney",
+                    "state": "new brunswick",
+                    "zip": 19954
+                },
+                "email": "simon.gauthier@example.com",
+                "username": "crazybird378",
+                "password": "labtec",
+                "salt": "udDqBq4o",
+                "md5": "041c03262264abb9e385869c35756093",
+                "sha1": "2c862ed2c2ab68140655887dd0acf67043a52324",
+                "sha256": "600c83fc63bfc9c6ff7f523146df45902cdb980d72f923946e7373a4180bf6af",
+                "registered": 1031280258,
+                "dob": 1236311954,
+                "phone": "087-020-6667",
+                "cell": "816-987-8408",
+                "picture": {
+                    "large": "https://randomuser.me/api/portraits/men/42.jpg",
+                    "medium": "https://randomuser.me/api/portraits/med/men/42.jpg",
+                    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/42.jpg"
+                }
+            }
+        }
+    ],
+    "nationality": "CA",
+    "seed": "e38587b1b0da504702",
+    "version": "0.8"
+}

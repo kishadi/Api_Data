@@ -1,0 +1,11 @@
+{
+  "AppName" : "Read and Write",
+  "Source"  : "https://randomuser.me/api/0.8/?results=10",
+  "Target"  : "file:///C:/data/output",
+  "db"  : {
+    "dburl" : "jdbc:postgresql:dbserver",
+    "dbtable" :  "schema.tablename",
+    "user"  : "username",
+    "password"  :   "password"
+  }
+}
