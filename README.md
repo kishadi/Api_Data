@@ -36,3 +36,9 @@ This is a shell script which could be used to setup the environment suitable for
 #TEST_ETL_JOB.PY
 
 This is a .py job used to unit test the job end to end. The .py will import pandas to assert the final results of the job and expected results. test_file.json is to be used to source in the data and run against the jobs.transform.py.
+
+#Spark-Submit Command
+
+spark-submit --py-files jobs.zip --files config.json main.py --jobs transform
+
+Options: We can add --packages if any external jars are required. We can set --deploy-mode, --master etc.
