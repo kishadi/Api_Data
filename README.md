@@ -5,16 +5,8 @@ Overview:
 
 This sample project ingests data from a Web Api. The data ingested is flattened and is saved as csv. Also, the data is loaded into a postgres RDBMS table. To parameterize the code config.json file is used for many values that otherwise would be hard-coded. Following is the structure of the App.
 
-app/
- |-- config.json
- |-- jobs/
- |   |-- transform.py
- |-- main.py
- |-- tests/
- |   |-- test_file.json (optional)
- |   |-- test_etl_job.py (optional)
- |-- build_dependencies.sh (optional)
- 
+ ![image](https://user-images.githubusercontent.com/111296899/184720192-a0087cf1-5c8a-4714-85da-90697c48c23a.png)
+
  
 
  #CONFIG JSON
